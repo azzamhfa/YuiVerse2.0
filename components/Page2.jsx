@@ -56,7 +56,7 @@ export default function Page2() {
           an exclusive model for "with" magazine and has had several acting
           roles. She was given the nickname "Pon Pon" on Keyakitte, a nickname
           she repeatedly asked everyone to stop using, but of course it
-          backfired… <b>( © Sakuzaka Central )</b>
+          backfired… <b>( © Sakuzaka Central ) </b>
         </span>
         <div>
           <h3>Media</h3>
