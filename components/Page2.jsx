@@ -9,7 +9,7 @@ export default function Page2() {
     <div className={styles.container}>
       <div className={styles.left}>
         <p className={styles.credits}>
-          <small>© Seed &amp; Flowers, LLC - 2021</small>{" "}
+          <small>© Seed &amp; Flowers, LLC - 2021</small>
         </p>
         <div className={styles.imgContainer2}>
           <Image
@@ -50,11 +50,11 @@ export default function Page2() {
           our sight is the amount of effort she has put into perfecting each of
           these skills. As she continues to set new goals for herself and
           strives to become better, she has grown into her role as a pillar of
-          the group. "Saitama Mad Dog" is what fans call her for her sadistic
+          the group. &quotSaitama Mad Dog&quot is what fans call her for her sadistic
           nature on stage, but behind the scenes there is no doubt that she is
           one of the core members who leads the group onward. Yui is currently
-          an exclusive model for "with" magazine and has had several acting
-          roles. She was given the nickname "Pon Pon" on Keyakitte, a nickname
+          an exclusive model for &quotwith&quot magazine and has had several acting
+          roles. She was given the nickname &quotPon Pon&quot on Keyakitte, a nickname
           she repeatedly asked everyone to stop using, but of course it
           backfired… <b>( © Sakuzaka Central ) </b>
         </span>
