@@ -1,6 +1,8 @@
 import Image from "next/image";
 import React, { Component } from "react";
 import styles from "./page1.module.css";
+
+
 export default class Page1 extends Component {
   render() {
     return (
