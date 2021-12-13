@@ -5,7 +5,11 @@ import Image from "next/image";
 
 export default function Page4() {
   const [status, setStatus] = useState(0);
-  const gambar = ["/assets/banner1.png", "/assets/banner2.png", "/assets/banner3.png"];
+  const gambar = [
+    "/assets/banner1.png",
+    "/assets/banner2.png",
+    "/assets/banner3.png",
+  ];
   const color = ["#F95F81", "#3E7F8C", "#7E0104"];
   const handleClick = (params) => {
     status === params ? setStatus(0) : setStatus(params);
@@ -16,7 +20,10 @@ export default function Page4() {
         <div className={styles.inner}>
           <div className={styles.tag}>
             <h1>Discography</h1>
-            <h2>as Sakurazaka46</h2>
+            <h2>
+              as
+              <span style={{ color: `${color[status]}` }}> Sakurazaka46</span>
+            </h2>
           </div>
 
           <div
@@ -108,11 +115,7 @@ export default function Page4() {
 
       <div className={styles.right}>
         <div className={styles.imgContainer2}>
-          <Image
-            className={styles.image}
-            layout="fill"
-            src={gambar[status]}
-          />
+          <Image className={styles.image} layout="fill" src={gambar[status]} />
         </div>
       </div>
     </div>

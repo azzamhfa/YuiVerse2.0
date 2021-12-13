@@ -56,6 +56,16 @@
   border-radius: 70px 0;
 }
 /* Ini buat Image */
+.yellow {
+  width: 20px;
+  height: 20px;
+  background-color: yellow;
+}
+.blue {
+  width: 20px;
+  height:20px;
+  background-color: blue;
+}
 
 .box {
   background-color: white;

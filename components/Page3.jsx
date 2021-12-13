@@ -6,7 +6,7 @@ import styles from "./page3.module.css";
 export default function Page3() {
   return (
     <div className={styles.container}>
-      <h1>Pon Guide 101</h1>
+      <h1>Pon Contents !</h1>
       <div className={styles.imgContainer}>
         <Image
           className={styles.image}

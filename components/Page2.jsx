@@ -36,9 +36,12 @@ export default function Page2() {
             <img src="/assets/height.png" alt="ico" />
             <h4>161 cm</h4>
           </span>
-          <span>
+          <span >
             <h4>Lightstick Color : </h4>
-            <p>🟨🟦</p>
+            <p style={{ display: "flex" }}>
+              <p className={styles.yellow}> </p>
+              <p className={styles.blue}> </p>
+            </p>
           </span>
         </div>
       </div>

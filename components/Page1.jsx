@@ -11,6 +11,8 @@ export default class Page1 extends Component {
           <h4>Home</h4>
           <h4>Biography</h4>
           <h4>Discography</h4>
+          <h4>Blogs</h4>
+          <h4>About this project</h4>
         </div>
         <div className={styles.imgContainer}>
           <Image
