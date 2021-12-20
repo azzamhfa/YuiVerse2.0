@@ -15,22 +15,22 @@ export default class Page1 extends Component {
             </Link>
           </h4>
           <h4>
-            <Link href="#home">
+            <Link href="#biography">
               <a>Biography</a>
             </Link>
           </h4>
           <h4>
-            <Link href="#home">
+            <Link href="#discography">
               <a>Discography</a>
             </Link>
           </h4>
           <h4>
-            <Link href="#home">
+            <Link href="#blogs">
               <a>Blogs</a>
             </Link>
           </h4>
           <h4>
-            <Link href="#home">
+            <Link href="#about">
               <a>About this project</a>
             </Link>
           </h4>
@@ -47,7 +47,7 @@ export default class Page1 extends Component {
         <div className={styles.tagLines}>
           <h1>YuiVerse</h1>
           <h2>Kobayashi Yui Promotional Landing Page</h2>
-          <small>Currently Under Construction</small>
+          <small>by @azzamhfa</small>
         </div>
 
         <div className={styles.cardSec}>

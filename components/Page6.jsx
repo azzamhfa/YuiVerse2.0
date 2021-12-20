@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./page6.module.css";
 export default function Page6() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="about">
       <div className={styles.center}>
         <h1>About This Project</h1>
         <p>

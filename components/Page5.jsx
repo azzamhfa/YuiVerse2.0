@@ -10,7 +10,7 @@ import { Button, CardActionArea, CardActions } from "@mui/material";
 
 export default function Page5(data) {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="blogs">
       <h1>Kobayashi Yui Translated Blogs</h1>
       <h3 style={{ marginBottom: "20px" }}>@Sakuzaka Central</h3>
       <div className={styles.cardContainer}>
