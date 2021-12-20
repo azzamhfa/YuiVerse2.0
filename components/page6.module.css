@@ -1,25 +1,31 @@
 .container {
-    display: flex;
-    height: 90vh;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
+  display: flex;
+  height: 90vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .container h1 {
-    text-align: center;
-    margin-bottom: 10px;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .container p {
-    color: #6b8f7a;
+  color: #6b8f7a;
 
-    margin-bottom: 10px;
-    text-align: justify;
+  margin-bottom: 10px;
+  text-align: justify;
 }
 .center {
-    width: 50%;
+  width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .center {
+    width: 80vw;
+  }
 }

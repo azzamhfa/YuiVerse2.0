@@ -25,7 +25,7 @@ export default class Page1 extends Component {
         <div className={styles.tagLines}>
           <h1>YuiVerse</h1>
           <h2>Kobayashi Yui Promotional Landing Page</h2>
-          <small>@azzamhfa</small>
+          <small>Currently Under Construction</small>
         </div>
 
         <div className={styles.cardSec}>

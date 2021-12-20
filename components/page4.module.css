@@ -89,3 +89,33 @@
 .active ul {
   display: block;
 }
+
+
+@media screen and (max-width: 600px) {
+
+.container {
+  height: 100vh;
+}
+
+.right{
+  display: none;
+}
+
+.left {
+background-color:white ;
+  box-shadow: unset;
+  backdrop-filter: unset;
+  -webkit-backdrop-filter: unset;
+  border-radius: unset;
+  border: unset;
+  padding: unset;
+
+  
+  align-items: center;
+}
+
+.inner {
+  width: 80vw;font-size: 18px;
+  left: unset;
+}
+}

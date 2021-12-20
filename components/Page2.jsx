@@ -9,40 +9,42 @@ export default function Page2() {
   return (
     <div className={styles.container}>
       <div className={styles.left}>
-        <p className={styles.credits}>
-          <small>© Seed &amp; Flower, LLC - 2021</small>
-        </p>
-        <div className={styles.imgContainer2}>
-          <Image
-            className={styles.image}
-            layout="fill"
-            src="/assets/pon3.jpg"
-          />
-        </div>
-        <div className={styles.box}>
-          <span>
-            <img src="/assets/calendar.png" alt="ico" />
-            <h4>October 23, 1999</h4>
-          </span>
-          <span>
-            <img src="/assets/location.png" alt="ico" />
-            <h4>Saitama Prefecture</h4>
-          </span>
-          <span>
-            <img src="/assets/blood.png" alt="ico" />
-            <h4>A</h4>
-          </span>
-          <span>
-            <img src="/assets/height.png" alt="ico" />
-            <h4>161 cm</h4>
-          </span>
-          <span >
-            <h4>Lightstick Color : </h4>
-            <p style={{ display: "flex" }}>
-              <p className={styles.yellow}> </p>
-              <p className={styles.blue}> </p>
-            </p>
-          </span>
+        <div className={styles.boxed}>
+          <p className={styles.credits}>
+            <small>© Seed &amp; Flower, LLC - 2021</small>
+          </p>
+          <div className={styles.imgContainer2}>
+            <Image
+              className={styles.image}
+              layout="fill"
+              src="/assets/pon3.jpg"
+            />
+          </div>
+          <div className={styles.box}>
+            <span>
+              <img src="/assets/calendar.png" alt="ico" />
+              <h4>October 23, 1999</h4>
+            </span>
+            <span>
+              <img src="/assets/location.png" alt="ico" />
+              <h4>Saitama Prefecture</h4>
+            </span>
+            <span>
+              <img src="/assets/blood.png" alt="ico" />
+              <h4>A</h4>
+            </span>
+            <span>
+              <img src="/assets/height.png" alt="ico" />
+              <h4>161 cm</h4>
+            </span>
+            <span>
+              <h4>Lightstick Color : </h4>
+              <p style={{ display: "flex" }}>
+                <p className={styles.yellow}> </p>
+                <p className={styles.blue}> </p>
+              </p>
+            </span>
+          </div>
         </div>
       </div>
       <div className={styles.right}>
@@ -68,21 +70,21 @@ export default function Page2() {
             <Button
               variant="contained"
               startIcon={<WebIcon />}
-              style={{ backgroundColor: "#9fd1b4" }}
+              style={{ backgroundColor: "#9fd1b4", marginBottom: "10px" }}
             >
               Official Site
             </Button>
             <Button
               variant="contained"
               startIcon={<TwitterIcon />}
-              style={{ backgroundColor: "#9fd1b4" }}
+              style={{ backgroundColor: "#9fd1b4", marginBottom: "10px" }}
             >
               @yuiponpics
             </Button>
             <Button
               variant="contained"
               startIcon={<TwitterIcon />}
-              style={{ backgroundColor: "#9fd1b4" }}
+              style={{ backgroundColor: "#9fd1b4", marginBottom: "10px" }}
             >
               Official PB
             </Button>
@@ -90,7 +92,7 @@ export default function Page2() {
         </div>
         <div className={styles.gallery}>
           <h3>Gallery</h3>
-          <div style={{ display: "flex" }}>
+          <div className={styles.conGalery} style={{ display: "flex" }}>
             <div className={styles.galleryCon}>
               <Image
                 className={styles.gallPhoto}

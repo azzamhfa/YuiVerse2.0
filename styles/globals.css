@@ -22,3 +22,7 @@ a {
   font-family: "Glitten";
   src: url("/fonts/Glitten/Glitten-Regular.ttf");
 }
+
+@media screen and (max-width: 600px) {
+ 
+}

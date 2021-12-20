@@ -33,7 +33,7 @@ export default function Home({ posts }) {
       <Page6 />
       <footer style={{ textAlign: "center" }}>
         <p>
-          Made by @azzamhfa with ❤ || YuiVerse v2.2 || Last Updated : 13-12-2021
+          Made by @azzamhfa with ❤ || YuiVerse v2.3 || Last Updated : 20-12-2021
           || <a href="https://github.com/azzamhfa/YuiVerse2.0">Github Repo</a>
         </p>
       </footer>
