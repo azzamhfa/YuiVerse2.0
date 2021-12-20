@@ -2,17 +2,39 @@ import Image from "next/image";
 import React, { Component } from "react";
 import styles from "./page1.module.css";
 
+import Link from "next/link";
 
 export default class Page1 extends Component {
   render() {
     return (
-      <div className={styles.container}>
+      <div className={styles.container} id="home">
         <div className={styles.navBar}>
-          <h4>Home</h4>
-          <h4>Biography</h4>
-          <h4>Discography</h4>
-          <h4>Blogs</h4>
-          <h4>About this project</h4>
+          <h4>
+            <Link href="#home">
+              <a>Home</a>
+            </Link>
+          </h4>
+          <h4>
+            <Link href="#home">
+              <a>Biography</a>
+            </Link>
+          </h4>
+          <h4>
+            <Link href="#home">
+              <a>Discography</a>
+            </Link>
+          </h4>
+          <h4>
+            <Link href="#home">
+              <a>Blogs</a>
+            </Link>
+          </h4>
+          <h4>
+            <Link href="#home">
+              <a>About this project</a>
+            </Link>
+          </h4>
+          
         </div>
         <div className={styles.imgContainer}>
           <Image

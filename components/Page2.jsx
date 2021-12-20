@@ -7,7 +7,7 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import WebIcon from "@mui/icons-material/Web";
 export default function Page2() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="biography">
       <div className={styles.left}>
         <div className={styles.boxed}>
           <p className={styles.credits}>
@@ -71,6 +71,9 @@ export default function Page2() {
               variant="contained"
               startIcon={<WebIcon />}
               style={{ backgroundColor: "#9fd1b4", marginBottom: "10px" }}
+              onClick={() =>
+                window.open("https://sakurazaka46.com/s/s46/artist/07?ima=4956")
+              }
             >
               Official Site
             </Button>
@@ -78,6 +81,9 @@ export default function Page2() {
               variant="contained"
               startIcon={<TwitterIcon />}
               style={{ backgroundColor: "#9fd1b4", marginBottom: "10px" }}
+              onClick={() =>
+                window.open("https://twitter.com/yuiponpics")
+              }
             >
               @yuiponpics
             </Button>
@@ -85,6 +91,9 @@ export default function Page2() {
               variant="contained"
               startIcon={<TwitterIcon />}
               style={{ backgroundColor: "#9fd1b4", marginBottom: "10px" }}
+              onClick={() =>
+                window.open("https://twitter.com/ponkansatsu_uk")
+              }
             >
               Official PB
             </Button>

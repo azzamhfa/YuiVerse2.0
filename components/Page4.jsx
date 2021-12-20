@@ -15,7 +15,7 @@ export default function Page4() {
     status === params ? setStatus(0) : setStatus(params);
   };
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="discography">
       <div className={styles.left}>
         <div className={styles.inner}>
           <div className={styles.tag}>

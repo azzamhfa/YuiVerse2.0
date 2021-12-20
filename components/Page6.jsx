@@ -16,7 +16,7 @@ export default function Page6() {
         <p>
           All Contents has Credits from Sakurazaka46&apos;s Official Website,
           Seed &amp; Flower LLC, Sakuzaka Central, Sakurazaka46 Official
-          Youtube, WeStillSubbing and @yuiponpics (twitter). If there&apos;s a
+          Youtube, WeStillSubbing, @pangda19 and @yuiponpics (twitter). If there&apos;s a
           problem with credits, feel free to DM me via Twitter @azzamhfa
         </p>
       </div>
