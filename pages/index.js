@@ -36,11 +36,11 @@ export default function Home({ posts }) {
         />
         <meta property="og:image" content="./meta.png" />
 
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://yuiverse.vercel.app/" />
-        <meta property="twitter:title" content="🌸YuiVerse" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://yuiverse.vercel.app/" />
+        <meta name="twitter:title" content="🌸YuiVerse" />
         <meta
-          property="twitter:description"
+          name="twitter:description"
           content="YuiVerse is a Kobayashi Yui Landing Page Website. This page is non-profit, not affiliated with anyone / groups, and it's fan-made that for Educational Purpose Only"
         />
         <meta property="twitter:image" content="./meta.png" />
