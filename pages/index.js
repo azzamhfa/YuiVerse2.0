@@ -7,7 +7,7 @@ import Page4 from "../components/Page4";
 import Page5 from "../components/Page5";
 import Page6 from "../components/Page6";
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const res = await fetch("https://api-yuiverse.herokuapp.com/data");
   const posts = await res.json();
   return {
@@ -36,7 +36,7 @@ export default function Home({ posts }) {
         />
         <meta property="og:image" content="./meta.png" />
 
-        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:card" content="summary" />
         <meta name="twitter:url" content="https://yuiverse.vercel.app/" />
         <meta name="twitter:title" content="🌸YuiVerse" />
         <meta
