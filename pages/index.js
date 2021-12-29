@@ -36,7 +36,7 @@ export default function Home({ posts }) {
         />
         <meta property="og:image" content="/meta.png" />
 
-        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:url" content="https://yuiverse.vercel.app/" />
         <meta name="twitter:title" content="🌸YuiVerse" />
         <meta
