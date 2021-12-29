@@ -34,7 +34,7 @@ export default function Home({ posts }) {
           property="og:description"
           content="YuiVerse is a Kobayashi Yui Landing Page Website. This page is non-profit, not affiliated with anyone / groups, and it's fan-made that for Educational Purpose Only"
         />
-        <meta property="og:image" content="./meta.png" />
+        <meta property="og:image" content="/meta.png" />
 
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:url" content="https://yuiverse.vercel.app/" />
@@ -43,7 +43,7 @@ export default function Home({ posts }) {
           name="twitter:description"
           content="YuiVerse is a Kobayashi Yui Landing Page Website. This page is non-profit, not affiliated with anyone / groups, and it's fan-made that for Educational Purpose Only"
         />
-        <meta property="twitter:image" content="./meta.png" />
+        <meta property="twitter:image" content="/meta.png" />
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
